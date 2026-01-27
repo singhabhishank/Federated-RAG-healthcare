@@ -1,1 +1,1 @@
-# ederated-RAG-System-healthcare
+# Federated-RAG-System-healthcare
