@@ -6,7 +6,6 @@ venv/
 *.key
 .DS_Store
 
-federated_vector_db/
 **/.chroma/
 *.sqlite
 *.db
