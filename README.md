@@ -1,4 +1,5 @@
-<img width="1663" height="957" alt="bcc319aa3e9ad969fa8f4f7c08a80ab2" src="https://github.com/user-attachments/assets/c5d2f0fa-aa1f-42fa-ae0c-7241de914015" />FederatedMed: Privacy-Preserving Federated RAG for Healthcare
+ <img width="1663" height="957" alt="2e6335c3f27d72834f0e5deea46adced" src="https://github.com/user-attachments/assets/e3a0b7e4-bd1b-4e33-ac82-2155e8d15848" />
+FederatedMed: Privacy-Preserving Federated RAG for Healthcare
 "I recently implemented FederatedMed, a federated retrieval-augmented generation (RAG) framework designed for evidence-based medical QA under strict data locality constraints.
 
 🎯 Motivation
@@ -8,7 +9,7 @@ However, centralizing documents across institutions is often infeasible due to:
  • Regulatory constraints
  • Institutional data governance policies
  • Confidentiality and IP concerns
- <img width="1663" height="957" alt="2e6335c3f27d72834f0e5deea46adced" src="https://github.com/user-attachments/assets/e3a0b7e4-bd1b-4e33-ac82-2155e8d15848" />
+ <img width="1663" height="957" alt="bcc319aa3e9ad969fa8f4f7c08a80ab2" src="https://github.com/user-attachments/assets/c5d2f0fa-aa1f-42fa-ae0c-7241de914015" />
 🏗 System Design
 
 The system simulates multiple “hospital” nodes, each maintaining a local vector database.
@@ -20,7 +21,7 @@ Query flow:
  4. A coordinator aggregates results and generates a cited response
 
 No raw documents or full embeddings leave local storage.
-<img width="1663" height="957" alt="bcc319aa3e9ad969fa8f4f7c08a80ab2" src="https://github.com/user-attachments/assets/8238a560-7171-46b0-9b6d-f1b63458102a" />
+
 🧠 Core Technical Components
 
 1️⃣ Federated Retrieval
