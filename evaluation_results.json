@@ -1,0 +1,185 @@
+{
+  "timestamp": "2026-02-15T04:47:42.748371",
+  "statistics": {
+    "total_questions": 10,
+    "valid_questions": 10,
+    "rate_limited_questions": 0,
+    "connection_error_questions": 0,
+    "other_error_questions": 0,
+    "failed_questions": 0,
+    "successful_queries": 10,
+    "avg_references": 12.0,
+    "avg_answer_length": 2797.7,
+    "avg_retrieval_relevance": 0.8187110558642882,
+    "avg_answer_quality": 0.95,
+    "avg_medical_accuracy": 0.9700000000000001,
+    "privacy_compliance_rate": 1.0,
+    "clients_contribution": {
+      "0": 10,
+      "1": 10,
+      "2": 10
+    }
+  },
+  "results": [
+    {
+      "question": "What are the cardiovascular risk factors?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 2335,
+      "retrieval_relevance_score": 0.9879445180534885,
+      "answer_quality_score": 0.8999999999999999,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:45:24.063177"
+    },
+    {
+      "question": "What are the symptoms of diabetes?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 2885,
+      "retrieval_relevance_score": 0.6542053842478542,
+      "answer_quality_score": 1.0,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:45:39.916933"
+    },
+    {
+      "question": "How is cancer treated?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 3193,
+      "retrieval_relevance_score": 0.7574000111361631,
+      "answer_quality_score": 0.8999999999999999,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:45:55.207708"
+    },
+    {
+      "question": "What causes hypertension?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 2876,
+      "retrieval_relevance_score": 0.7614239430721478,
+      "answer_quality_score": 1.0,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:46:09.713682"
+    },
+    {
+      "question": "What are the side effects of chemotherapy?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 2950,
+      "retrieval_relevance_score": 0.7535586067397884,
+      "answer_quality_score": 1.0,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:46:25.327163"
+    },
+    {
+      "question": "How to prevent stroke?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 2379,
+      "retrieval_relevance_score": 0.7187340454027793,
+      "answer_quality_score": 0.8999999999999999,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:46:37.591951"
+    },
+    {
+      "question": "What is the treatment for pneumonia?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 3442,
+      "retrieval_relevance_score": 0.9139801357121271,
+      "answer_quality_score": 1.0,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:46:55.603943"
+    },
+    {
+      "question": "What are the early signs of Alzheimer's disease?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 2522,
+      "retrieval_relevance_score": 0.7959188855142248,
+      "answer_quality_score": 0.8999999999999999,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:47:09.813555"
+    },
+    {
+      "question": "How does insulin work in the body?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 2654,
+      "retrieval_relevance_score": 0.8439450287643099,
+      "answer_quality_score": 0.8999999999999999,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:47:27.475431"
+    },
+    {
+      "question": "What causes asthma attacks?",
+      "num_references": 12,
+      "clients_contributed": [
+        0,
+        1,
+        2
+      ],
+      "answer_length": 2741,
+      "retrieval_relevance_score": 1.0,
+      "answer_quality_score": 1.0,
+      "medical_accuracy_score": 0.9700000000000001,
+      "privacy_compliant": true,
+      "num_citations": 12,
+      "timestamp": "2026-02-15T04:47:42.259464"
+    }
+  ]
+}
