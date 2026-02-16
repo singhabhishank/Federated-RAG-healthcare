@@ -1,0 +1,50 @@
+EXPERIMENT 1: FEDERATED RETRIEVAL PROOF
+================================================================================
+
+Question: What are the cardiovascular risk factors?
+
+CLIENT-BY-CLIENT RESULTS:
+--------------------------------------------------------------------------------
+
+Client 0 - Top 5 documents:
+  1. [0.560] "Genetic analysis of common factors underlying cardiovascular disease-related traits" (BMC Genetics, 2003)
+  2. [0.553] "Impact of the individual components of the metabolic syndrome and their different combinations on the prevalence of atherosclerotic vascular disease in type 2 diabetes: the Diabetes in Germany (DIG) s" (Cardiovascular Diabetology, 2007)
+  3. [0.552] "Pleiotropic effects on cardiovascular risk factors within and between the fourth and sixth decades of life: Implications for genotype × age interactions" (BMC Genetics, 2003)
+  4. [0.540] "Increasing number of components of the metabolic syndrome and cardiac structural and functional abnormalities – cross-sectional study of the general population" (BMC Cardiovascular Disorders, 2007)
+  5. [0.528] "Risk of ischaemic heart disease and acute myocardial infarction in a Spanish population: observational prospective study in a primary-care setting" (BMC Public Health, 2006)
+
+Client 1 - Top 5 documents:
+  1. [0.533] "Barriers to apply cardiovascular prediction rules in primary care: a postal survey" (BMC Family Practice, 2007)
+  2. [0.529] "Obstetrician-Assessed Maternal Health at Pregnancy Predicts Offspring Future Health" (PLoS ONE, 2007)
+  3. [0.525] "Comparative levels and time trends in blood pressure, total cholesterol, Body Mass Index and smoking among Caucasian and South-Asian participants of a UK primary-care based cardiovascular risk factor " (BMC Public Health, 2005)
+  4. [0.523] "The effect of leisure-time physical activity on the risk of acute myocardial infarction depending on Body Mass Index: a population-based case-control study" (BMC Public Health, 2006)
+  5. [0.522] "Common carotid artery wall thickness and external diameter as predictors of prevalent and incident cardiac events in a large population study" (Cardiovascular Ultrasound, 2007)
+
+Client 2 - Top 5 documents:
+  1. [0.634] "Managing Cardiovascular Risk Factors: The Gap between Evidence and Practice" (PLoS Medicine, 2005)
+  2. [0.565] "Knowledge of modifiable risk factors of heart disease among patients with acute myocardial infarction in Karachi, Pakistan: a cross sectional study" (BMC Cardiovascular Disorders, 2006)
+  3. [0.549] "Established Risk Factors Account for Most of the Racial Differences in Cardiovascular Disease Mortality" (PLoS ONE, 2007)
+  4. [0.545] "What Is the Best Strategy for Reducing Deaths from Heart Disease?" (PLoS Medicine, 2005)
+  5. [0.531] "Bivariate variance-component analysis, with application to systolic blood pressure and total cholesterol levels in the Framingham Heart Study" (BMC Genetics, 2003)
+
+
+AGGREGATED RESULTS:
+--------------------------------------------------------------------------------
+Clients contributed: [0, 1, 2]
+Total aggregated documents: 15
+
+  1. [Client 2, 0.634] "Managing Cardiovascular Risk Factors: The Gap between Evidence and Practice" (PLoS Medicine, 2005)
+  2. [Client 2, 0.565] "Knowledge of modifiable risk factors of heart disease among patients with acute myocardial infarction in Karachi, Pakistan: a cross sectional study" (BMC Cardiovascular Disorders, 2006)
+  3. [Client 0, 0.560] "Genetic analysis of common factors underlying cardiovascular disease-related traits" (BMC Genetics, 2003)
+  4. [Client 0, 0.553] "Impact of the individual components of the metabolic syndrome and their different combinations on the prevalence of atherosclerotic vascular disease in type 2 diabetes: the Diabetes in Germany (DIG) s" (Cardiovascular Diabetology, 2007)
+  5. [Client 0, 0.552] "Pleiotropic effects on cardiovascular risk factors within and between the fourth and sixth decades of life: Implications for genotype × age interactions" (BMC Genetics, 2003)
+  6. [Client 2, 0.549] "Established Risk Factors Account for Most of the Racial Differences in Cardiovascular Disease Mortality" (PLoS ONE, 2007)
+  7. [Client 2, 0.545] "What Is the Best Strategy for Reducing Deaths from Heart Disease?" (PLoS Medicine, 2005)
+  8. [Client 0, 0.540] "Increasing number of components of the metabolic syndrome and cardiac structural and functional abnormalities – cross-sectional study of the general population" (BMC Cardiovascular Disorders, 2007)
+  9. [Client 1, 0.533] "Barriers to apply cardiovascular prediction rules in primary care: a postal survey" (BMC Family Practice, 2007)
+  10. [Client 2, 0.531] "Bivariate variance-component analysis, with application to systolic blood pressure and total cholesterol levels in the Framingham Heart Study" (BMC Genetics, 2003)
+  11. [Client 1, 0.529] "Obstetrician-Assessed Maternal Health at Pregnancy Predicts Offspring Future Health" (PLoS ONE, 2007)
+  12. [Client 0, 0.528] "Risk of ischaemic heart disease and acute myocardial infarction in a Spanish population: observational prospective study in a primary-care setting" (BMC Public Health, 2006)
+  13. [Client 1, 0.525] "Comparative levels and time trends in blood pressure, total cholesterol, Body Mass Index and smoking among Caucasian and South-Asian participants of a UK primary-care based cardiovascular risk factor " (BMC Public Health, 2005)
+  14. [Client 1, 0.523] "The effect of leisure-time physical activity on the risk of acute myocardial infarction depending on Body Mass Index: a population-based case-control study" (BMC Public Health, 2006)
+  15. [Client 1, 0.522] "Common carotid artery wall thickness and external diameter as predictors of prevalent and incident cardiac events in a large population study" (Cardiovascular Ultrasound, 2007)

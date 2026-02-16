@@ -1,0 +1,52 @@
+EXPERIMENT 7: REVIEWER-APPROVED METRICS COMPARISON
+====================================================================================================
+
+Number of questions per system: 20
+Epsilon (for DP systems): 1.0
+
+1. RETRIEVAL QUALITY
+----------------------------------------------------------------------------------------------------
+System                         Avg Relevance   Top-K Sim       ≥0.85        ≥0.90       
+----------------------------------------------------------------------------------------------------
+Centralized RAG                0.953           1.000           95.0        % 85.0        %
+Federated RAG (No DP)          0.950           1.000           95.0        % 75.0        %
+Federated RAG + DP             0.950           1.000           95.0        % 75.0        %
+Federated RAG + DP + SA        0.950           1.000           95.0        % 75.0        %
+----------------------------------------------------------------------------------------------------
+
+2. PRIVACY
+----------------------------------------------------------------------------------------------------
+System                         Raw Data        Embeddings           Epsilon      Privacy Score  
+----------------------------------------------------------------------------------------------------
+Centralized RAG                No              Yes (no DP)          0.00         0.30           
+Federated RAG (No DP)          No              Yes (no DP)          0.00         0.50           
+Federated RAG + DP             No              Yes (DP-noised)      1.00         0.80           
+Federated RAG + DP + SA        No              Yes (DP-noised)      1.00         1.00           
+----------------------------------------------------------------------------------------------------
+
+3. FEDERATED BEHAVIOR
+----------------------------------------------------------------------------------------------------
+System                         Part. Rate      Avg Clients     Var          Dominance      
+----------------------------------------------------------------------------------------------------
+Centralized RAG                100.0          % 1.00            0.00         Yes            
+Federated RAG (No DP)          100.0          % 3.00            0.00         Yes            
+Federated RAG + DP             100.0          % 3.00            0.00         Yes            
+Federated RAG + DP + SA        100.0          % 3.00            0.00         Yes            
+----------------------------------------------------------------------------------------------------
+
+4. SYSTEM COST
+----------------------------------------------------------------------------------------------------
+System                         Latency (ms)    Comm Rounds     Embeddings     
+----------------------------------------------------------------------------------------------------
+Centralized RAG                67.5            1.00            28800          
+Federated RAG (No DP)          40.0            3.00            28800          
+Federated RAG + DP             38.8            3.00            28800          
+Federated RAG + DP + SA        42.8            3.00            28800          
+----------------------------------------------------------------------------------------------------
+
+KEY FINDINGS:
+- Best Retrieval Quality: Centralized RAG (0.953)
+- Best Privacy Score: Federated RAG + DP + SA (1.00)
+- Best Federated Behavior: Centralized RAG (100.0%)
+- Lowest Latency: Federated RAG + DP (38.8ms)
+- Lowest Communication: Centralized RAG (1.00 rounds)

@@ -1,0 +1,24 @@
+EXPERIMENT 6: SYSTEM COMPARISON
+========================================================================================================================
+
+Number of questions per system: 15
+Epsilon (for DP systems): 1.0
+Delta: 1e-05
+
+Results:
+------------------------------------------------------------------------------------------------------------------------
+System                                        Relevance    Quality      Accuracy     Privacy %    Avg Refs  
+------------------------------------------------------------------------------------------------------------------------
+Centralized RAG (Non-Federated, No Privacy)   0.964        0.973        1.000        100.0        15.0      
+Federated RAG (No DP)                         0.956        0.947        1.000        100.0        15.0      
+Federated RAG + Differential Privacy          0.956        0.933        0.997        100.0        15.0      
+Federated RAG + DP + Secure Aggregation       0.956        0.943        1.000        100.0        15.0      
+------------------------------------------------------------------------------------------------------------------------
+
+Key Findings:
+1. Centralized RAG (baseline): Highest utility, no privacy
+2. Federated RAG (no DP): Good utility, no privacy protection
+3. Federated RAG + DP: Balanced privacy-utility tradeoff
+4. Federated RAG + DP + SA: Maximum privacy, slight utility tradeoff
+
+Conclusion: Federation and privacy protection have minimal impact on utility.

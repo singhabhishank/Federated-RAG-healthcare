@@ -1,0 +1,65 @@
+================================================================================
+EXPERIMENT 10: CONFUSION MATRIX RESULTS
+================================================================================
+
+Thresholds:
+  - Retrieval Relevance: Adaptive (Low < 0.412, Medium: 0.412-0.549, High > 0.549)
+
+================================================================================
+
+Federated RAG (No DP) vs Baseline:
+--------------------------------------------------------------------------------
+
+Retrieval Relevance Classification Report:
+  Overall Accuracy: 0.833 (83.3%)
+  Per-Class Metrics:
+    Low:
+      Precision: 0.700
+      Recall: 0.875
+      F1-Score: 0.778
+    Medium:
+      Precision: 0.846
+      Recall: 0.786
+      F1-Score: 0.815
+    High:
+      Precision: 1.000
+      Recall: 0.875
+      F1-Score: 0.933
+
+Federated RAG + DP vs Baseline:
+--------------------------------------------------------------------------------
+
+Retrieval Relevance Classification Report:
+  Overall Accuracy: 0.867 (86.7%)
+  Per-Class Metrics:
+    Low:
+      Precision: 0.800
+      Recall: 1.000
+      F1-Score: 0.889
+    Medium:
+      Precision: 0.857
+      Recall: 0.857
+      F1-Score: 0.857
+    High:
+      Precision: 1.000
+      Recall: 0.750
+      F1-Score: 0.857
+
+Federated RAG + DP + SA vs Baseline:
+--------------------------------------------------------------------------------
+
+Retrieval Relevance Classification Report:
+  Overall Accuracy: 0.667 (66.7%)
+  Per-Class Metrics:
+    Low:
+      Precision: 0.556
+      Recall: 0.625
+      F1-Score: 0.588
+    Medium:
+      Precision: 0.625
+      Recall: 0.714
+      F1-Score: 0.667
+    High:
+      Precision: 1.000
+      Recall: 0.625
+      F1-Score: 0.769

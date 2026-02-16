@@ -1,0 +1,33 @@
+EXPERIMENT 8: RELEVANCE COMPARISON (FIGURE A - REQUIRED)
+================================================================================
+
+Goal: Show that privacy introduces minimal degradation in retrieval quality.
+
+Number of questions per system: 50
+Epsilon (for DP systems): 1.0
+
+Relevance Statistics:
+--------------------------------------------------------------------------------
+System                              Avg        Median     Std        Degradation    
+--------------------------------------------------------------------------------
+Centralized
+(No Privacy)            0.967      1.000      0.049      0.00           %
+Federated
+(No DP)                   0.963      1.000      0.054      0.42           %
+Federated + DP
+(Privacy)            0.964      1.000      0.054      0.35           %
+Federated + DP + SA
+(Max Privacy)   0.964      1.000      0.054      0.35           %
+--------------------------------------------------------------------------------
+
+Key Findings:
+- Baseline (Centralized): 0.967 relevance
+- Federated (No DP): 0.963 relevance (0.42% degradation)
+- Federated + DP: 0.964 relevance (0.35% degradation)
+- Federated + DP + SA: 0.964 relevance (0.35% degradation)
+
+Total Privacy Cost: 0.35% relevance loss
+Privacy Benefit: Full privacy protection (DP + Secure Aggregation)
+
+Conclusion: Privacy introduces MINIMAL degradation in retrieval quality.
+            Even with maximum privacy protection, system maintains 99.7% of baseline performance.

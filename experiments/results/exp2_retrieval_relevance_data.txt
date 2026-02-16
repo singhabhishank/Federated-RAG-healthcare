@@ -1,0 +1,67 @@
+EXPERIMENT 2: RETRIEVAL RELEVANCE PLOT
+================================================================================
+
+Total Questions: 50
+Average Relevance: 0.964
+Median Relevance: 1.000
+Min Relevance: 0.800
+Max Relevance: 1.000
+Std Deviation: 0.054
+
+Questions ≥ 0.85: 48/50 (96.0%)
+Questions ≥ 0.90: 44/50 (88.0%)
+Questions ≥ 0.95: 31/50 (62.0%)
+
+
+Per-Question Scores:
+--------------------------------------------------------------------------------
+Q 1: 0.933 - What are the cardiovascular risk factors?
+Q 2: 1.000 - What are the symptoms of diabetes?
+Q 3: 0.933 - How is cancer treated?
+Q 4: 0.867 - What causes hypertension?
+Q 5: 0.867 - What are the side effects of chemotherapy?
+Q 6: 0.933 - How to prevent stroke?
+Q 7: 1.000 - What is the treatment for pneumonia?
+Q 8: 0.867 - What are the early signs of Alzheimer's disease?
+Q 9: 1.000 - How does insulin work in the body?
+Q10: 1.000 - What causes asthma attacks?
+Q11: 1.000 - What are the risk factors for osteoporosis?
+Q12: 1.000 - How is tuberculosis diagnosed?
+Q13: 0.933 - What are the complications of diabetes?
+Q14: 1.000 - What is the difference between type 1 and type 2 diabetes?
+Q15: 1.000 - How to manage chronic pain?
+Q16: 0.867 - What are the symptoms of heart attack?
+Q17: 0.800 - What causes migraines?
+Q18: 1.000 - How is depression treated?
+Q19: 1.000 - What are the warning signs of stroke?
+Q20: 1.000 - What is the treatment for high cholesterol?
+Q21: 1.000 - How does the immune system work?
+Q22: 0.933 - What are the causes of kidney disease?
+Q23: 0.933 - What is the role of exercise in cardiovascular health?
+Q24: 1.000 - How is hepatitis diagnosed?
+Q25: 0.933 - What are the symptoms of thyroid disorders?
+Q26: 1.000 - What causes autoimmune diseases?
+Q27: 1.000 - How to prevent osteoporosis?
+Q28: 1.000 - What are the treatment options for arthritis?
+Q29: 0.933 - What is the relationship between diet and heart disease?
+Q30: 1.000 - How is sleep apnea treated?
+Q31: 1.000 - What are the risk factors for developing cancer?
+Q32: 1.000 - What causes chronic fatigue syndrome?
+Q33: 1.000 - How is diabetes managed in elderly patients?
+Q34: 1.000 - What are the effects of smoking on cardiovascular health?
+Q35: 1.000 - What is the treatment for anxiety disorders?
+Q36: 0.933 - How does stress affect physical health?
+Q37: 0.933 - What are the symptoms of vitamin deficiency?
+Q38: 0.800 - What causes liver disease?
+Q39: 1.000 - How is hypertension managed?
+Q40: 1.000 - What are the complications of obesity?
+Q41: 0.933 - What is the role of genetics in disease?
+Q42: 1.000 - How is mental health assessed?
+Q43: 1.000 - What are the treatment options for chronic pain?
+Q44: 0.933 - What causes respiratory diseases?
+Q45: 1.000 - How to prevent cardiovascular disease?
+Q46: 1.000 - What are the symptoms of metabolic syndrome?
+Q47: 1.000 - What is the treatment for inflammatory diseases?
+Q48: 0.933 - How does aging affect health?
+Q49: 1.000 - What are the risk factors for mental health disorders?
+Q50: 1.000 - What is the relationship between exercise and mental health?

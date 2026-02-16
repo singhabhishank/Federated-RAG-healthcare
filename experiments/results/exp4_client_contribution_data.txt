@@ -1,0 +1,72 @@
+EXPERIMENT 4: CLIENT CONTRIBUTION HEATMAP
+================================================================================
+
+Total Questions: 50
+Top-K per client: 5
+
+Collaboration Statistics:
+--------------------------------------------------------------------------------
+Questions with multiple clients: 50/50 (100.0%)
+Questions with single client: 0/50 (0.0%)
+Questions with all 3 clients: 50/50 (100.0%)
+
+Client Contribution Totals:
+--------------------------------------------------------------------------------
+Client 0: 250 documents across 50 questions (avg: 5.00/question)
+Client 1: 250 documents across 50 questions (avg: 5.00/question)
+Client 2: 250 documents across 50 questions (avg: 5.00/question)
+
+Per-Question Contributions:
+--------------------------------------------------------------------------------
+Question   Client 0   Client 1   Client 2   Total      Clients   
+--------------------------------------------------------------------------------
+Q1         5          5          5          15         3         
+Q2         5          5          5          15         3         
+Q3         5          5          5          15         3         
+Q4         5          5          5          15         3         
+Q5         5          5          5          15         3         
+Q6         5          5          5          15         3         
+Q7         5          5          5          15         3         
+Q8         5          5          5          15         3         
+Q9         5          5          5          15         3         
+Q10        5          5          5          15         3         
+Q11        5          5          5          15         3         
+Q12        5          5          5          15         3         
+Q13        5          5          5          15         3         
+Q14        5          5          5          15         3         
+Q15        5          5          5          15         3         
+Q16        5          5          5          15         3         
+Q17        5          5          5          15         3         
+Q18        5          5          5          15         3         
+Q19        5          5          5          15         3         
+Q20        5          5          5          15         3         
+Q21        5          5          5          15         3         
+Q22        5          5          5          15         3         
+Q23        5          5          5          15         3         
+Q24        5          5          5          15         3         
+Q25        5          5          5          15         3         
+Q26        5          5          5          15         3         
+Q27        5          5          5          15         3         
+Q28        5          5          5          15         3         
+Q29        5          5          5          15         3         
+Q30        5          5          5          15         3         
+Q31        5          5          5          15         3         
+Q32        5          5          5          15         3         
+Q33        5          5          5          15         3         
+Q34        5          5          5          15         3         
+Q35        5          5          5          15         3         
+Q36        5          5          5          15         3         
+Q37        5          5          5          15         3         
+Q38        5          5          5          15         3         
+Q39        5          5          5          15         3         
+Q40        5          5          5          15         3         
+Q41        5          5          5          15         3         
+Q42        5          5          5          15         3         
+Q43        5          5          5          15         3         
+Q44        5          5          5          15         3         
+Q45        5          5          5          15         3         
+Q46        5          5          5          15         3         
+Q47        5          5          5          15         3         
+Q48        5          5          5          15         3         
+Q49        5          5          5          15         3         
+Q50        5          5          5          15         3         

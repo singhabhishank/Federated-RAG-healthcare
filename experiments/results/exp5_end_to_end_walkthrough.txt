@@ -1,0 +1,77 @@
+EXPERIMENT 5: END-TO-END WALKTHROUGH
+================================================================================
+
+Question: What are the cardiovascular risk factors?
+
+STEP 1: QUESTION INPUT
+--------------------------------------------------------------------------------
+User asks: What are the cardiovascular risk factors?
+
+STEP 2: LOCAL RETRIEVAL (Parallel at each client)
+--------------------------------------------------------------------------------
+Client 0:
+  - Searches its PRIVATE database (8000 documents)
+  - Retrieves top 5 relevant documents
+  - NO raw text leaves the client
+
+Client 1:
+  - Searches its PRIVATE database (8000 documents)
+  - Retrieves top 5 relevant documents
+  - NO raw text leaves the client
+
+Client 2:
+  - Searches its PRIVATE database (8000 documents)
+  - Retrieves top 5 relevant documents
+  - NO raw text leaves the client
+
+STEP 3: DIFFERENTIAL PRIVACY (DP) EMBEDDING SHARING
+--------------------------------------------------------------------------------
+Each client applies DP noise to embeddings:
+  - Privacy parameters: ε=1.0, δ=1e-05
+  - Only DP-noised embeddings are shared
+  - Metadata (title, journal, year) is also shared
+  - ❌ Raw document text is NEVER shared
+
+STEP 4: AGGREGATION & RERANKING
+--------------------------------------------------------------------------------
+Coordinator receives embeddings from all 3 clients
+  - Merges results from all clients
+  - Reranks by similarity score
+  - Total aggregated documents: 15
+
+STEP 5: CONTEXT BUILDING
+--------------------------------------------------------------------------------
+Builds context for LLM using ONLY:
+  - High-level metadata (titles, journals, years)
+  - Relevance scores
+  - ❌ NO raw document text
+  - ❌ NO patient data
+
+STEP 6: LLM ANSWER GENERATION
+--------------------------------------------------------------------------------
+LLM generates answer based on metadata-only context
+  - Answer length: 3202 characters
+  - Citations: 15 sources
+  - Privacy-preserved citations (metadata only)
+
+PRIVACY SUMMARY
+--------------------------------------------------------------------------------
+✅ SHARED:
+  - Differentially private embeddings
+  - Metadata (title, journal, year)
+  - Relevance scores
+
+❌ NOT SHARED:
+  - Raw document text
+  - Patient data
+  - Full abstracts
+  - Any identifying information
+
+CONCLUSION
+--------------------------------------------------------------------------------
+The system successfully answers questions using federated data
+while maintaining strict privacy guarantees through:
+  1. Local-only data storage
+  2. Differential privacy on embeddings
+  3. Metadata-only context building
+  4. No raw data sharing between clients
