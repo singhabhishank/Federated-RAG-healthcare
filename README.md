@@ -1,5 +1,7 @@
- <img width="1663" height="957" alt="2e6335c3f27d72834f0e5deea46adced" src="https://github.com/user-attachments/assets/e3a0b7e4-bd1b-4e33-ac82-2155e8d15848" />
 FederatedMed: Privacy-Preserving Federated RAG for Healthcare
+
+ <img width="1663" height="957" alt="2e6335c3f27d72834f0e5deea46adced" src="https://github.com/user-attachments/assets/e3a0b7e4-bd1b-4e33-ac82-2155e8d15848" />
+
 "I recently implemented FederatedMed, a federated retrieval-augmented generation (RAG) framework designed for evidence-based medical QA under strict data locality constraints.
 
 🎯 Motivation
